@@ -1,0 +1,61 @@
+/* QuizComponent */
+.quizs {
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+.quiz {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quiz h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.quiz label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+label input {
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Correct {
+  color: green;
+}
+
+.Wrong {
+  color: red;
+}
+.Clicked {
+  background-color: #f0f0f0; /* Change background color to indicate selection */
+}
