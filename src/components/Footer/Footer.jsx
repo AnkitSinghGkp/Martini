@@ -37,7 +37,7 @@ function Footer() {
         <div className="contact-info">
           <h3>Contact Info</h3>
           <div>
-            <p>+91 91250 33797</p>
+            <p>+91 8853784584</p>
             <p>Basaratpur, Gorakhpur, Uttar Pradesh</p>
             <p>Martini@gmail.com</p>
           </div>

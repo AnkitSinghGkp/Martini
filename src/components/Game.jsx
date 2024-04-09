@@ -84,11 +84,11 @@ const Game = () => {
     if (isGameActive) {
       alert("Won!");
       if (level == "low") {
-        appwriteService.updateCash(userData.$id, prime[0] + 2);
-      } else if (level == "medium") {
-        appwriteService.updateCash(userData.$id, prime[0] + 5);
-      } else if (level == "high") {
         appwriteService.updateCash(userData.$id, prime[0] + 10);
+      } else if (level == "medium") {
+        appwriteService.updateCash(userData.$id, prime[0] + 20);
+      } else if (level == "high") {
+        appwriteService.updateCash(userData.$id, prime[0] + 30);
       }
       gameRestart();
     }
